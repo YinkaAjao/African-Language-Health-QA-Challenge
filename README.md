@@ -46,6 +46,14 @@ Throughout this research, I discovered that industry-standard NLP techniques bui
 
 This project was developed across Google Colab (for rapid statistical prototyping) and Kaggle (for dual-GPU LLM training).
 
+## How to run
+1. Clone the repository:
+git clone [https://github.com/YinkaAjao/African-Language-Health-QA-Challenge.git]
+
+2. Configure your environment:
+Ensure your data files (Train.csv, Test.csv, Val.csv) are located in the /data directory. For Kaggle reproduction of the Gemma-2B architecture, ensure you have your Hugging Face API key mapped to HF_TOKEN in Kaggle Secrets.
+3. Run the notebook
+
 ## Repository Structure
 
 ```text
@@ -53,10 +61,3 @@ This project was developed across Google Colab (for rapid statistical prototypin
 ├── notebook/           # Notebook containing all experiments
 ├── models/             # Final Zindi-formatted submission CSVs
 └── README.md
-
-1. Clone the repository:
-git clone [https://github.com/YinkaAjao/African-Language-Health-QA-Challenge.git]
-
-2. Configure your environment:
-Ensure your data files (Train.csv, Test.csv, Val.csv) are located in the /data directory. For Kaggle reproduction of the Gemma-2B architecture, ensure you have your Hugging Face API key mapped to HF_TOKEN in Kaggle Secrets.
-3. Run the notebook
