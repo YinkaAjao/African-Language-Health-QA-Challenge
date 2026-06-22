@@ -46,6 +46,14 @@ Throughout this research, I discovered that industry-standard NLP techniques bui
 
 This project was developed across Google Colab (for rapid statistical prototyping) and Kaggle (for dual-GPU LLM training).
 
+## Repository Structure
+
+```text
+├── data/               # Target directory for Zindi Train/Test/Val CSVs
+├── notebook/           # Notebook containing all experiments
+├── models/             # Final Zindi-formatted submission CSVs
+└── README.md
+
 1. Clone the repository:
 git clone [https://github.com/YinkaAjao/African-Language-Health-QA-Challenge.git]
 
